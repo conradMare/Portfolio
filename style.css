@@ -1,0 +1,201 @@
+div {
+    display: block;
+}
+
+body {
+    color: #40514e;
+    text-align: center;
+}
+
+h1 {
+    color: #40514e;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+
+h2 {
+    color: #2e3c39;
+    font-family: "PT Serif", serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: "PT Serif", serif;
+}
+
+.profile-h2 {
+    text-align: center;
+    color: #2e3c39;
+    font-family: "PT Serif", serif;
+}
+
+.top-container {
+    background-color: #FFF9D0;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-text {
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    margin: 50px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.middle-container {
+    display: grid;
+    margin: 100px 0;
+}
+
+.profile-image {
+    grid-column: 2;
+    height: 300px;
+    width: 275px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.intro {
+    width: 25%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.about-me {
+    text-decoration: underline;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 70%;
+    margin: 100px auto 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    row-gap: 2rem;
+    padding: 10px;
+}
+
+.introduction-to-programming-image {
+    height: 200px;
+    width: 300px;
+}
+
+.introduction-to-programming {
+    grid-column:1;
+}
+
+.python-image {
+    height: 200px;
+    width: 300px;
+}
+
+.python {
+    grid-column: 2;
+}
+
+.sql-image {
+    height: 200px;
+    width: 300px;
+}
+
+.sql {
+    grid-column: 1;
+}
+
+.react-image {
+    height: 200px;
+    width: 300px;
+}
+
+.react {
+    grid-column: 2;
+}
+
+.java-beginner-image {
+    height: 200px;
+    width: 300px;
+}
+
+.java-beginner {
+    grid-column: 1;
+}
+
+.java-advanced-image {
+    height: 200px;
+    width: 300px;
+}
+
+.java-advanced {
+    grid-column: 2;
+}
+
+.spring-image {
+    height: 200px;
+    width: 300px;
+}
+
+.spring-udemy-image {
+    height: 200px;
+    width: 300px;
+}
+
+.spring-udemy {
+    grid-column: 2;
+}
+
+hr {
+    width: 50%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+    
+}
+
+.bottom-container {
+    background-color: #fbfbfb;
+    padding: 50px 0 20px;
+}
+
+a {
+    color: #11999e;
+    font-family: "PT Serif", serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #2e3c39;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
